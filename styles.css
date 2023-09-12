@@ -1,0 +1,173 @@
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgoldenrodyellow;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#title
+{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+
+.container
+{
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 5px solid gray;
+  margin: 40px;
+  border-radius: 5px;
+
+}
+
+
+.panel
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15px;
+  width: 500px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#select-button
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: lightpink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#select-button:hover {background-color: rgb(254, 124, 144)}
+
+#select-button:active {
+    background-color: rgb(253, 219, 224);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#reset-button
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#reset-button:hover {background-color: rgb(113, 203, 233)}
+
+#reset-button:active {
+    background-color: rgb(193, 221, 230);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#black-button
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+#black-button:hover {background-color: rgb(246, 98, 98)}
+  
+#black-button:active {
+      background-color: rgb(237, 193, 193);
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+}
+
+#rainbow-button
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#rainbow-button:hover {background-color: rgb(6, 169, 161)}
+
+#rainbow-button:active {
+    background-color: rgb(154, 183, 182);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+#eraser-button
+  {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+#eraser-button:hover {background-color: rgb(100, 154, 225)}
+  
+#eraser-button:active {
+      background-color: rgb(199, 209, 223);
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
